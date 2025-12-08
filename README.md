@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 ---
 
 <p align="center">
-<img src="/vroomfondel/github-metrics.svg" alt="vroomfondel's GitHub Stats" />
+<img src="/github-metrics.svg" alt="vroomfondel's GitHub Stats" />
 </p>
 <!-- 
 <p align="center">
