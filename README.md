@@ -19,9 +19,9 @@ Here are some ideas to get you started:
 ---
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vroomfondel&show_icons=true&theme=radical&count_private=true" alt="vroomfondel's GitHub Stats" />
+<img src="/vroomfondel/vroomfondel/github-metrics.svg" alt="vroomfondel's GitHub Stats" />
 </p>
-
+<!-- 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vroomfondel&layout=compact&theme=radical" alt="vroomfondel's Top Languages" />
 </p>
@@ -33,4 +33,4 @@ Here are some ideas to get you started:
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=vroomfondel&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="vroomfondel's Trophies" />
 </p>
-
+-->
