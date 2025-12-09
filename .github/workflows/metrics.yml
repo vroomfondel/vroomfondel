@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Update alle 24 Stunden
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 0,12,18 * * *"}]
   # Manuell triggern möglich
   workflow_dispatch:
   # Update wenn du was pushst
