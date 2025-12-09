@@ -34,6 +34,12 @@ CONFIG_OUPUT=svg
 # INPUT_MARKDOWN=TEMPLATENAME.md
 # INPUT_CONFIG_BASE64=yes
 
+RENDEREDFILE=${outdir}/github-metrics.${CONFIG_OUPUT}
+
+if [ -e "${RENDEREDFILE}" ] ; then
+  rm "${RENDEREDFILE}" -vf
+fi
+
 docker run --rm \
   --env INPUT_TOKEN=${GITHUB_TOKEN} \
   --env INPUT_USER=${GITHUB_USERNAME} \
@@ -50,3 +56,11 @@ docker run --rm \
   --env INPUT_CONFIG_OUTPUT=${CONFIG_OUPUT} \
   --volume=${outdir}:/renders \
   ghcr.io/lowlighter/metrics:latest
+
+if [ -e "${RENDEREDFILE}" ] ; then
+  cp "${RENDEREDFILE}" ../ -v && \
+  cd .. && \
+  echo -e "updated metrics from $(hostname)\n\n[skip actions]" | git commit github-metrics.${CONFIG_OUPUT} -F -
+else
+  echo creating ${RENDEREDFILE} seemingly failed.
+fi
