@@ -58,9 +58,12 @@ docker run --rm \
   ghcr.io/lowlighter/metrics:latest
 
 if [ -e "${RENDEREDFILE}" ] ; then
-  cp "${RENDEREDFILE}" ../ -v && \
-  cd .. && \
-  echo -e "updated metrics from $(hostname)\n\n[skip actions]" | git commit github-metrics.${CONFIG_OUPUT} -F -
+  cd .. && git pull && \
+  cp "${RENDEREDFILE}" . -v && \
+  git commit github-metrics.${CONFIG_OUPUT} -m "updated metrics from $(hostname)" -m "[skip actions]" && \
+  git push
 else
   echo creating ${RENDEREDFILE} seemingly failed.
 fi
+
+
