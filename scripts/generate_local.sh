@@ -6,12 +6,14 @@ if [ $? -ne 0 ] ; then
 	exit 123
 fi
 
-source ./include.sh
-
 outdir=$(realpath ../render.local)
 if ! [ -e "${outdir}" ] ; then
   mkdir ${outdir}
 fi
+echo outdir: $outdir
+
+source ./include.sh
+
 
 # https://github.com/lowlighter/metrics/blob/master/source/plugins/core/README.md
 CONFIG_OUPUT=svg
