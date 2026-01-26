@@ -36,14 +36,14 @@
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -214,17 +214,17 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 2.43mb of code in 1314 edited files across 506 commits</small>
+                <small>estimation from 2.44mb of code in 1331 edited files across 511 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="401.77643970190866" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="401.77643970190866" y="0" width="27.226967272069054" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="429.0034069739777" y="0" width="13.376620438141378" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="442.38002741211903" y="0" width="8.885366193136822" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="451.26539360525584" y="0" width="8.734606394744114" height="8" fill="#a52a22"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="398.4416116016607" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="398.4416116016607" y="0" width="29.994900339025463" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="428.43651194068616" y="0" width="13.265591703463555" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="441.70210364414976" y="0" width="9.635789012746432" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="451.3378926568962" y="0" width="8.66210734310383" height="8" fill="#a52a22"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -261,7 +261,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Jan 2026, 13:22:48 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 26 Jan 2026, 19:19:43 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
